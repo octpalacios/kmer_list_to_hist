@@ -14,7 +14,7 @@
 ## Usage
 
 ```bash
-kmer_list_to_hist <(zcat kmer_list.gz) > kmer_list.hist
+build/kmer_list_to_hist <(zcat kmer_list.gz) > kmer_list.hist
 ```
 
 `kmer_list.gz` is a gzipped file like:
