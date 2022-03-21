@@ -1,7 +1,7 @@
 ## Dependencies
 
  - CMake >= 3.12
- - A modern C++ compiler (C++17, GCC 7+, Clang 5+)
+ - A modern C++ compiler supporting C++17 (such as GCC 7+ or Clang 5+)
 
 ## Build instructions
 
