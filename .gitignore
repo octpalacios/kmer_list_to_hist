@@ -1,3 +1,6 @@
+# IDE stuff
+.idea/
+
 # CMake build dirs
 cmake-build-*
 

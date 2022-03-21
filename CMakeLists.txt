@@ -7,10 +7,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 if (NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE Release)
 endif ()
-set(CMAKE_POSITION_INDEPENDENT_CODE ON)
-set(CMAKE_INTERPROCEDURAL_OPTIMIZATION TRUE)
 
 add_subdirectory(abseil-cpp)
+
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+set(CMAKE_INTERPROCEDURAL_OPTIMIZATION TRUE)
 
 add_executable(kmer_list_to_hist main.cpp)
 target_include_directories(kmer_list_to_hist PRIVATE abseil-cpp/)
@@ -44,6 +45,6 @@ if (${CMAKE_BUILD_TYPE} MATCHES "^Debug.*")
                 -fprofile-arcs
                 -ftest-coverage)
     endif ()
-else()
+else ()
     target_compile_options(kmer_list_to_hist PRIVATE -O3 -mtune=native -march=native)
 endif ()
