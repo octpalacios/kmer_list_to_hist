@@ -27,9 +27,9 @@ RUN kmer_list_to_hist --help
 
 # https://github.com/opencontainers/image-spec/blob/main/annotations.md#pre-defined-annotation-keys
 LABEL org.opencontainers.image.authors='Roberto Rossini <roberros@uio.no>'
-LABEL org.opencontainers.image.url='https://github.com/robymetallo/kmer_list_to_hist'
-LABEL org.opencontainers.image.documentation='https://github.com/robymetallo/kmer_list_to_hist'
-LABEL org.opencontainers.image.source='https://github.com/robymetallo/kmer_list_to_hist'
+LABEL org.opencontainers.image.url='https://github.com/octpalacios/kmer_list_to_hist'
+LABEL org.opencontainers.image.documentation='https://github.com/octpalacios/kmer_list_to_hist'
+LABEL org.opencontainers.image.source='https://github.com/octpalacios/kmer_list_to_hist'
 LABEL org.opencontainers.image.licenses='MIT'
 LABEL org.opencontainers.image.title='kmer_list_to_hist'
 LABEL org.opencontainers.image.base.name='ubuntu'
