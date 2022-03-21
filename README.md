@@ -6,7 +6,8 @@
 ## Build instructions
 
 ```bash
-   mkdir build
+   git clone --recurse-submodules --remote-submodules https://https://github.com/robymetallo/kmer_list_to_hist.git
+   mkdir build && cd build
    cmake ..
    make -j $(nproc)
 ```
