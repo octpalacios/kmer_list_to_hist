@@ -19,5 +19,5 @@
 ## Notes
 
 The binaries produced by default are not portable.
-If you are planning to use this program on multiple machines with different architecture, you may want to edit `CMakeLists.txt` and change `-mtune` and `-march` from `native` to `generic`, and repeat the steps outlined in build instructions.
+If you are planning to use this program on multiple machines with different architectures, you may want to edit `CMakeLists.txt` and change `-mtune` and `-march` from `native` to `generic`, and repeat the steps outlined in [build instructions](https://github.com/robymetallo/kmer_list_to_hist#build-instructions).
 
